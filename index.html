@@ -4,18 +4,36 @@
     <meta charset="utf-8" />
     <style>
       blockquote {
-        padding: 1px 15px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 15px;
         color: rgba(116, 116, 116, 1);
         border-left-width: 4px;
         border-left-style: inset;
         border-left-color: rgba(221, 221, 221, 1);
       }
-      #usuallySentence{
+      .usuallySentence{
         color: rgba(116, 116, 116, 1);
-        padding: 1px 50px;
+        padding-left: 50px;
       }
-      #emphasis{
+      .emphasis{
         font-weight: bolder;
+      }
+      .goto{
+        background: url("./images/11-5_btn2.gif") no-repeat left top;
+        /*
+        background-position: 0px 0px;
+        */
+        width: 140px;
+        height: 36px;
+        display: block;
+        color: #FFFFFF;
+        font-size: 15px;
+        line-height: 36px;
+        text-align: center;
+      }
+      .goto a:hover {
+          font-size: 20px;
       }
     </style>
 </head>
@@ -26,22 +44,16 @@
         見出し
       </h1>
     </blockquote>
-      <p id="usuallySentence">
-        <span id="emphasis">Lorem</span>  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    <p id="usuallySentence">
-      <span id="emphasis">あいうえお</span><br>
+    <p class="usuallySentence">
+      <span class="emphasis">Lorem</span>  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <p class="usuallySentence">
+      <span class="emphasis">あいうえお</span><br>
       かきくけこ<br>
       さしすせそ
     </p>
-<<<<<<< HEAD
-<<<<<<< HEAD
+    <p class="goto">
+      <a href="./買い物.md.html">買い物ページ</a>
+    </p>
 </body>
 </html>
-=======
-
-
-=======
->>>>>>> refs/remotes/origin/gh-pages
-</body>
->>>>>>> refs/remotes/origin/gh-pages
