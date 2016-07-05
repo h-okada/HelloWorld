@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="utf-8" />
+    <style>
+      blockquote {
+        padding: 1px 15px;
+        color: rgba(116, 116, 116, 1);
+        border-left-width: 4px;
+        border-left-style: inset;
+        border-left-color: rgba(221, 221, 221, 1);
+      }
+      #usuallySentence{
+        color: rgba(116, 116, 116, 1);
+        padding: 1px 50px;
+      }
+      #emphasis{
+        font-weight: bolder;
+      }
+    </style>
 </head>
 <body>
-    <p>
-        Hello,World!
+    <br>
+    <blockquote>
+      <h1>
+        見出し
+      </h1>
+    </blockquote>
+      <p id="usuallySentence">
+        <span id="emphasis">Lorem</span>  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    <p id="usuallySentence">
+      <span id="emphasis">Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
+
+
 </body>
